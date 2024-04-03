@@ -571,7 +571,7 @@ addr_sel_test = 0;
 
 
 
-// Instructions to write on memory in hex.
+// Instructions to write on memory.
 
   
   
