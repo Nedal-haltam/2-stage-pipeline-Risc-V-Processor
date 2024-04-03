@@ -604,26 +604,5 @@ namespace Assembler
                 lblinvinst.Visible = false;
             }
         }
-
-        // this function is available to convert a given machine to an instruction that is easy to read and manipulate
-        //private string MC_to_Inst(string mc)
-        //{
-        //    string inst = "";
-        //    string opcode_func3 = mc.Substring(mc.Length - 10);
-
-
-        //    return inst;
-        //}
-
-        //private List<string> GetInstfromMC(List<string> insts_list)
-        //{
-        //    List<string> res = new List<string>();
-        //    foreach (string mc in insts_list)
-        //    {
-        //        res.Add(MC_to_Inst(mc));
-        //    }
-
-        //    return res;
-        //}
     }
 }
