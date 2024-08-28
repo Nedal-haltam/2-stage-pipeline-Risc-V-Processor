@@ -12,7 +12,8 @@ the Verilog code that is written not the machine code see the below example for 
 
 ![image](https://github.com/Nedal-haltam/2-stage-pipeline-Risc-V-Processor/assets/133881380/cbf6c35c-9d8b-405e-a147-e7685baa7ec5)
 
-see the highlighted text this is what you will paste into the CPU module in Verilog and then let it run for enough time and see the output in the console for observing the register file and data memory contents 
+As you can see the highlighted text this is what you should paste into the CPU module in Verilog and then let it run for enough clock cycles and see the output in the console for observing the register file and memory
+contents 
 
 note: the first edge that enters the CPU is a negative edge so that the registers between the fetch and the execution stage latch the instruction from the instruction memory addressed by the initialized
 register PC1 (see block diagram). And then it increaments normally and automatically.
