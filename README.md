@@ -2,9 +2,9 @@
 In this repository, I introduced an implementation of a 2-stage pipelined Risc-V Processor using Verilog and built an Assembler along with it to make it easier to write programs so you can write them on the instruction memory and execute it.
 
 features:<br />
-1- Avoids any hazards by utilizing the edges of the clock when fetching an instruction.<br />
-2- no bubble (nop) in this implementation so there is any sort of delay instroduced due to pipelining.<br />
-3- there is a hlt instruction to halt the cpu automatically when ever it fetch it.<br />
+1- Avoids any hazards by utilizing the edges of the clock when fetching an instruction and executing it.<br />
+2- no bubble (nop) in this implementation so there is no any sort of delay instroduced in the pipelining.<br />
+3- there is a hlt instruction to halt the cpu automatically when ever it is fetched.<br />
     
 To write Instructions on the instruction memory you first use the assembler program to write the code on the left textbox and then you copy the output of the assembler from the right text box. but here you should copy
 the Verilog code that is written not the machine code see the below example for further understanding.
